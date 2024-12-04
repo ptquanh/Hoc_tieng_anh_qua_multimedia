@@ -1,0 +1,19 @@
+{
+  "name": "hoc_tieng_anh_qua_multimedia",
+  "version": "1.0.0",
+  "description": "learn english through videos and musics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptquanh/Hoc_tieng_anh_qua_multimedia.git"
+  },
+  "author": "ptquanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptquanh/Hoc_tieng_anh_qua_multimedia/issues"
+  },
+  "homepage": "https://github.com/ptquanh/Hoc_tieng_anh_qua_multimedia#readme"
+}
