@@ -1,15 +1,15 @@
-import "./Login.scss";
+import "./Signup.scss";
 import { useHistory } from "react-router-dom/cjs/react-router-dom";
 
-const Login = (props) => {
+const Signup = (props) => {
   let history = useHistory();
   const handleCreateNewAccount = () => {
     history.push("/signup");
   };
   return (
-    <div class="login-container">
+    <div class="signup-container">
       <div className="container">
-        <h2 class="text-center">Login</h2>
+        <h2 class="text-center">Signup</h2>
         <div class="mb-3">
           <label for="email" class="form-label">
             Email address
@@ -39,7 +39,7 @@ const Login = (props) => {
           </label>
         </div>
         <button type="submit" class="btn btn-primary">
-          Login
+          Signup
         </button>
         <div className="row">
           <div className="forgotpassword col-6 mt-3">
@@ -49,7 +49,7 @@ const Login = (props) => {
             <span onClick={() => handleCreateNewAccount()}>Sign up</span>
           </div>
         </div>
-        <div class="social-login">
+        <div class="social-Signup">
           <a href="/a" className="google">
             <span>Google</span>
           </a>
@@ -61,4 +61,4 @@ const Login = (props) => {
     </div>
   );
 };
-export default Login;
+export default Signup;
